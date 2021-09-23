@@ -25,14 +25,14 @@ header {
 }
 
 .sidebar {
-    height: 850px;
+    height: 100vh;
     width: 10%;
     background-color: crimson;
     float: left;
 }
 
 .contenuto {
-    height: 820px;
+    height: 100vh;
     width: 100%;
     background-color: pink;
 }
