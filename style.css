@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix {
     content: "";
     display: table;
@@ -13,27 +17,59 @@
 .barra-upgrade {
     height: 100px;
     width: 90%;
-    background-color: cornflowerblue;
+    background-color: #06090E;
     float: right;
 }
 
 .sidebar {
-    height: 100vh;
+    height: 900px;
     width: 10%;
-    background-color: crimson;
+    background-color: #000000;
     float: left;
+    position: fixed;
 }
 
 .contenuto {
     height: 100vh;
     width: 100%;
-    background-color: pink;
+    background-color: #10141B;
 }
 
 .base {
     height: 100px;
     width: 100%;
-    background-color: black;
+    background-color: #202020;
     position: absolute;
     bottom: 0;
+}
+
+/* **************************
+*******SCHEMA A BLOCCHI******* */
+
+.upgrade {
+    color: white;
+    background-color: #06090E;
+    border: 1px solid white;
+    border-radius: 40px;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-left: 95rem;
+    margin-top: 25px;
+    width: 200px;
+    text-align: center;
+}
+
+.img-logo {
+    height: 50px;
+    width: 120px;
+}
+
+.left-elements {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.down-elements {
+    margin-left: 20px;
 }
