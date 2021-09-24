@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 .clearfix {
@@ -23,7 +24,7 @@ body {
 
 .sidebar {
     height: 900px;
-    width: 10%;
+    width: 200px;
     background-color: #000000;
     float: left;
     position: fixed;
@@ -35,12 +36,14 @@ body {
     background-color: #10141B;
 }
 
-.base {
+.base-flex {
     height: 100px;
     width: 100%;
-    background-color: #202020;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
 }
 
 /* **************************
@@ -72,4 +75,36 @@ body {
 
 .down-elements {
     margin-left: 20px;
+}
+
+/* ************************
+*******SIDEBAR************* */
+
+.left {
+    width: 20%;
+    /*  background-color: red; */
+    height: 100px;
+    position: relative;
+}
+
+.center {
+    width: 40%;
+    /* background-color: yellow; */
+    height: 100px;
+    position: relative;
+}
+
+.right {
+    width: 20%;
+    background-color: violet;
+    height: 100px;
+    position: relative;
+}
+
+.barra-canzone {
+    width: 460px;
+    height: 5px;
+    color: white;
+    float: right;
+    margin-right: 7rem;
 }
