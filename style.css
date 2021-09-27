@@ -43,7 +43,6 @@ header {
 .base-flex {
     height: 100px;
     width: 100%;
-    position: absolute;
     bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -197,6 +196,11 @@ header {
 .img-logo {
     height: 50px;
     width: 120px;
+}
+
+.logo-small {
+    height: 50px;
+    display: none;
 }
 
 .left-elements {
@@ -695,21 +699,30 @@ header {
 /********************
 ******** /main **********/
 
-p:hover, i:hover, img:hover {
+img:hover {
+    opacity: 60%;
     cursor: pointer;
 }
 
-img:hover {
-    opacity: 60%;
+p:hover, i:hover, li:hover, span:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.barra-canzone1:hover {
+    display: none;
 }
 
 /* /effetti */
 
-@media screen and (max-width: 768px) {
-    .contenitore-canzoni1-flex {
-        width: calc(100vw / 2);
-    }
-    .base-flex, .left, .center, .right {
-        width: 100%;
-    }
-}
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 425px) {}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 320px) {}
