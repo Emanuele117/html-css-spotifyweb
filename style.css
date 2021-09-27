@@ -22,7 +22,6 @@ header {
 
 .barra-upgrade {
     float: right;
-    position: fixed;
 }
 
 .sidebar {
@@ -68,6 +67,133 @@ header {
     text-align: center;
 }
 
+.linea-verde2 {
+    height: 20px;
+    width: 2px;
+    background-color: lime;
+    margin-left: -20px;
+}
+
+.casa {
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.home {
+    margin-left: 5px;
+    color: lightgray;
+    opacity: 60%;
+    float: left;
+    margin-left: 45px;
+    margin-top: -15px;
+}
+
+.search {
+    margin-top: 1rem;
+    color: lightgray;
+    display: flex;
+    opacity: 60%;
+    height: 20px;
+}
+
+.cerca {
+    color: lightgray;
+    opacity: 60%;
+    float: left;
+    margin-left: 25px;
+    margin-top: -17px;
+}
+
+.libreria {
+    margin-top: 1rem;
+    color: lightgray;
+    display: flex;
+    opacity: 60%;
+    height: 20px;
+}
+
+.libri {
+    color: lightgray;
+    opacity: 60%;
+    float: left;
+    margin-left: 25px;
+    margin-top: -17px;
+}
+
+.playlist {
+    color: white;
+    display: block;
+    margin-top: 2rem;
+}
+
+.fa-plus-square {
+    margin-top: 1rem;
+    color: lightgrey;
+    display: block;
+    opacity: 60%;
+    font-size: 30px;
+    margin-right: 3rem;
+}
+
+.crea-playlist {
+    font-size: 12px;
+    margin-left: 0.5rem;
+    float: right;
+    margin-right: 2rem;
+    margin-top: -20px;
+    margin-right: 2rem;
+}
+
+.nome-playlist {
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 1rem;
+}
+
+.download {
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 6rem;
+    height: 20px;
+}
+
+.installa {
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-left: 0.5rem;
+    float: right;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+
+.linea {
+    height: 1px;
+    width: 120px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+}
+
+.profilo {
+    margin-top: 1rem;
+    color: lightgrey;
+    height: 20px;
+}
+
+.utente {
+    color: white;
+    margin-left: 0.5rem;
+    float: right;
+    font-size: 12px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
 .img-logo {
     height: 50px;
     width: 120px;
@@ -77,16 +203,17 @@ header {
     margin-left: 20px;
     margin-top: 20px;
     font-size: 14px;
-    overflow: hidden;
 }
 
 .down-elements {
     margin-left: 20px;
+    margin-top: 11rem;
 }
 
 .sidebar {
     overflow: hidden;
-    height: 100%;
+    height: 100vh;
+    width: 200px;
 }
 
 /* ************************
@@ -115,27 +242,330 @@ header {
     height: 5px;
     background-color: gray;
     float: right;
-    margin-right: 7rem;
+    margin-right: 15rem;
     margin-top: -10px;
 }
 
 .barra-canzone2 {
-    width: 140px;
+    width: 180px;
     height: 5px;
     background-color: gray;
     float: right;
     margin-top: 52px;
-    margin-right: 3rem;
+    margin-right: 4rem;
+}
+
+.copertina-sinister {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 70px;
+}
+
+.paragrafo-sinister {
+    font-size: 16px;
+    color: white;
+    margin-top: 40px;
+    margin-right: 14rem;
+    float: right;
+}
+
+.nome-brano {
+    font-size: 10px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-left: 107px;
+    margin-top: -2rem;
+    float: left;
+}
+
+.fa-heart {
+    float: right;
+    font-size: 20px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: -45px;
+    margin-right: 9rem;
+}
+
+.fa-folder {
+    float: right;
+    font-size: 20px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: -45px;
+    margin-right: 6rem;
+}
+
+.fa-random {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 11rem;
+}
+
+.fa-step-backward {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+.fa-play-circle {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+.fa-step-forward {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+.fa-redo {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+.time1 {
+    color: white;
+    font-size: 13px;
+    margin-top: 1rem;
+    margin-right: 4rem;
+}
+
+.time2 {
+    color: white;
+    font-size: 13px;
+    margin-top: -1rem;
+    float: right;
+    margin-right: 11rem;
+}
+
+.barra-canzone1 {
+    width: 80px;
+    height: 5px;
+    background-color: white;
+}
+
+.fa-list-ul {
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+    margin-right: 1rem;
+}
+
+.fa-desktop {
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+    margin-right: 1rem;
+}
+
+.fa-volume-up {
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+}
+
+.barra-piccola {
+    width: 30px;
+    height: 5px;
+    background-color: white;
 }
 
 /************ /footer ****************/
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.list {
+    margin-left: 40px;
+}
+
+.linea-verde {
+    width: 35px;
+    height: 2px;
+    background-color: lime;
+    margin-top: 25px;
+    position: relative;
+    left: -60px;
+}
+
 .contenitore-canzoni1-flex {
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-left: 1rem;
     height: 400px;
     width: 1290px;
     display: flex;
+}
+
+.contenitore-foto1 {
+    margin-top: 2rem;
+    margin-left: -12rem;
+}
+
+.foto1 {
+    height: 200px;
+    margin-top: 2rem;
+}
+
+.titolo-foto1 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 45px;
+}
+
+.paragrafo-foto1 {
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+    margin-left: 65px;
+    font-size: 12px;
+}
+
+.contenitore-foto2 {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    width: 165px;
+}
+
+.foto2 {
+    height: 200px;
+}
+
+.titolo-foto2 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.paragrafo-foto2 {
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+    margin-left: 17px;
+    font-size: 12px;
+}
+
+.contenitore-foto3 {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 165px;
+}
+
+.foto3 {
+    height: 200px;
+}
+
+.titolo-foto3 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.paragrafo-foto3 {
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+    margin-left: 17px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.contenitore-foto4 {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 165px;
+}
+
+.foto4 {
+    height: 200px;
+}
+
+.titolo-foto4 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.paragrafo-foto4 {
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+    margin-left: 17px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.contenitore-foto5 {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 165px;
+}
+
+.foto5 {
+    height: 200px;
+}
+
+.titolo-foto5 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.paragrafo-foto5 {
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+    margin-left: 17px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.contenitore-foto6 {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 165px;
+}
+
+.foto6 {
+    height: 200px;
+}
+
+.titolo-foto6 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.paragrafo-foto6 {
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+    margin-left: 17px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .contenitore-canzoni2-flex {
@@ -146,12 +576,103 @@ header {
     display: flex;
 }
 
+.contenitore-foto7 {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 165px;
+    margin-top: 5rem;
+    margin-left: -19rem;
+}
+
+.foto7 {
+    height: 200px;
+}
+
+.titolo-foto7 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.contenitore-foto8 {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 165px;
+    margin-top: 5rem;
+}
+
+.foto8 {
+    height: 200px;
+}
+
+.titolo-foto8 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
 .contenitore-canzoni3-flex {
     margin-top: 2rem;
     margin-left: 1rem;
     height: 400px;
     width: 1290px;
     display: flex;
+}
+
+.titolo-artisti {
+    color: white;
+    font-size: 25px;
+}
+
+.paragrafo-artisti {
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
+}
+
+.contenitore-foto9 {
+    margin-top: 4rem;
+    margin-left: -15rem;
+    width: 165px;
+    margin-top: 5rem;
+}
+
+.foto9 {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.titolo-foto9 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.contenitore-foto10 {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    width: 165px;
+    margin-top: 5rem;
+}
+
+.foto10 {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.titolo-foto10 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 15px;
+    margin-left: 25px;
+    text-align: center;
 }
 
 .recently-played {
@@ -162,6 +683,13 @@ header {
 .suggerimenti {
     color: white;
     font-size: 25px;
+}
+
+.paragrafo-suggerimenti {
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 60%;
+    margin-top: 0.5rem;
 }
 
 /********************
@@ -178,8 +706,10 @@ img:hover {
 /* /effetti */
 
 @media screen and (max-width: 768px) {
-    .contenitore-canzoni1-flex, .contenitore-canzoni2-flex, .contenitore-canzoni3-flex {
-        width: calc(100% / 6);
-        display: flex;
+    .contenitore-canzoni1-flex {
+        width: calc(100vw / 2);
+    }
+    .base-flex, .left, .center, .right {
+        width: 100%;
     }
 }

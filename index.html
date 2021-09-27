@@ -19,28 +19,32 @@
             <div class="left-elements">
                 <img src="./img/logo.svg" alt="logo spotify" class="img-logo">
                
-                <div style="height: 20px; width: 2px; background-color: lime; margin-left: -20px;"> <i class="fas fa-home" style="margin-top: 2rem; color: white; display: flex; margin-left: 20px;"> <span style="margin-left: 5px;">Home</span></i></div>
+                <div class="linea-verde2"> 
+                    <img src="./img/home.svg" alt="home" class="casa"> 
+                    <span class="home">Home</span>
+                </div>
                 
-                <i class="fas fa-search" style="margin-top: 1rem; color: lightgray; display: block; opacity: 60%;"> <span>Cerca</span></i>
-                <i class="fas fa-book" style="margin-top: 1rem; color: lightgrey; display: block; opacity: 60%;"> <span>La tua libreria</span></i>
-                <p style="color: white; display: block; margin-top: 2rem;">PLAYLIST</p>
-                <i class="fas fa-plus-square" style="margin-top: 1rem; color: lightgrey; display: block; opacity: 60%; font-size: 30px; margin-right: 3rem;"><p style="font-size: 12px; margin-left: 0.5rem; float: right; margin-right: 2rem; margin-top: -20px; margin-right: 2rem;"><span>Crea Playlist</span></p></i>
-                <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 1rem;"><span>Nome Playlist</span></p>
-                <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 1rem;"><span>Nome Playlist</span></p>
-                <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 1rem;"><span>Nome Playlist</span></p>
-                <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 1rem;"><span>Nome Playlist</span></p>
-                <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 1rem;"><span>Nome Playlist</span></p>
-                <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 1rem;"><span>Nome Playlist</span></p>
-                <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 1rem;"><span>Nome Playlist</span></p>
+                <img src="./img/search.svg" alt="search" class="search"><span class="cerca">Cerca</span>
+                <img src="./img/libreria.svg" alt="libreria" class="libreria"><span class="libri">La tua libreria</span> 
+                <p class="playlist">PLAYLIST</p>
+
+                <i class="fas fa-plus-square"><p class="crea-playlist"><span class="sparisce">Crea Playlist</span></p></i>
+                <p class="nome-playlist"><span class="sparisce">Nome Playlist</span></p>
+                <p class="nome-playlist"><span class="sparisce">Nome Playlist</span></p>
+                <p class="nome-playlist"><span class="sparisce">Nome Playlist</span></p>
+                <p class="nome-playlist"><span class="sparisce">Nome Playlist</span></p>
+                <p class="nome-playlist"><span class="sparisce">Nome Playlist</span></p>
+                <p class="nome-playlist"><span class="sparisce">Nome Playlist</span></p>
+                <p class="nome-playlist"><span class="sparisce">Nome Playlist</span></p>
             </div>
             
 
             <!-- /elementi sidebar in alto -->
 
             <div class="down-elements">
-                <i class="fas fa-arrow-circle-down" style="color: lightgrey; opacity: 60%; margin-top: 6rem;"> <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-left: 0.5rem; float: right; margin-right: 2rem; "><span>Installa app</span></p></i>
-                <hr style="height: 1px; width: 120px; color: lightgrey; opacity: 60%; margin-top: 0.5rem;">
-                <i class="fas fa-user-circle" style="margin-top: 1rem; color: lightgrey;"> <p style="color: white; margin-left: 0.5rem; float: right; font-size: 12px;"><span>Emanuele Pica</span></p> </i>
+                <img src="./img/download.svg" alt="download" class="download"><p class="installa">Installa app</p></i>
+                <hr class="linea">
+                <img src="./img/profile.svg" alt="profilo" class="profilo"><p class="utente"><span class="sparisce">Emanuele Pica</span></p> 
             </div>
         </div>
     </header>    
@@ -49,57 +53,61 @@
 
     <main>
         <div class="contenuto">
-            <div style=" width: 550px; height: 50px; margin: auto; margin-top: 1rem;">
-              <p style="color: lightgrey; opacity: 60%; float: left; font-size: 12px; margin-right: 1rem;">IN EVIDENZA</p>
-              <p style="color: lightgrey; opacity: 60%; float: left; font-size: 12px; margin-right: 1rem">PODCAST</p>
-              <p style="color: lightgrey; opacity: 60%; float: left; font-size: 12px; margin-right: 1rem">CLASSIFICHE</p>
-              <p style="color: lightgrey; opacity: 60%; float: left; font-size: 12px; margin-right: 1rem">GENERI E MOOD</p>
-              <p style="color: lightgrey; opacity: 60%; float: left; font-size: 12px; margin-right: 1rem">NUOVE USCITE</p>
-              <p style="color: lightgrey; opacity: 60%; float: left; font-size: 12px; margin-right: 1rem">SCOPRI</p>
+            <div>
+                <ul class="navbar">
+                    <li class="list">IN EVIDENZA</li>
+                    <span class="linea-verde"></span>
+                    <li class="list">PODCAST</li>
+                    <li class="list">CLASSIFICHE</li>
+                    <li class="list">GENERI E MOOD</li>
+                    <li class="list">NUOVE USCITE</li>
+                    <li class="list">SCOPRI</li>
+                </ul>
+              
             </div>
 
             <!-- /navbar  -->
 
-            <div style="background-color: lime; width: 35px; height: 2px; margin-left: 25rem; margin-top: -2rem;"></div>
+            
 
             <div class="contenitore-canzoni1-flex">
                 
                 <h1 class="recently-played">Recently played</h1>
 
-                <div style="margin-top: 2rem; margin-left: -12rem;">
-                    <img src="./img/metal_lifting.jpg" alt="heavy metal" style="height: 200px; margin-top: 2rem; "> 
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 45px;">Heavy Metal</h6>
-                    <p style="color: lightgrey; opacity: 60%; margin-top: 0.5rem; margin-left: 65px; font-size: 12px;">Subtitle</p>
+                <div class="contenitore-foto1">
+                    <img src="./img/metal_lifting.jpg" alt="heavy metal" class="foto1"> 
+                    <h6 class="titolo-foto1">Heavy Metal</h6>
+                    <p class="paragrafo-foto1">Subtitle</p>
                 </div> 
 
-                <div style="margin-top: 4rem; margin-left: 1rem; width: 165px;">
-                    <img src="./img/stranger.jpeg" alt="stranger things" style="height: 200px;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 15px; text-align: center;">Stranger Things, Vol. 1 (a Netflix original Series Soundtrack)</h6>
-                    <p style="color: lightgrey; opacity: 60%; margin-top: 0.5rem; margin-left: 17px; font-size: 12px;">Kyle Dixon & Michael Stein</p>
+                <div class="contenitore-foto2">
+                    <img src="./img/stranger.jpeg" alt="stranger things" class="foto2">
+                    <h6 class="titolo-foto2">Stranger Things, Vol. 1 (a Netflix original Series Soundtrack)</h6>
+                    <p class="paragrafo-foto2">Kyle Dixon & Michael Stein</p>
                 </div>
 
-                <div style="margin-top: 4rem; margin-left: 3rem; width: 165px;">
-                    <img src="./img/aquietplace.jpeg" alt="a quiet place" style="height: 200px;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 15px; text-align: center;">A quiet place</h6>
-                    <p style="color: lightgrey; opacity: 60%; margin-top: 0.5rem; margin-left: 17px; font-size: 12px; text-align: center;"> Subtitle</p>
+                <div class="contenitore-foto3">
+                    <img src="./img/aquietplace.jpeg" alt="a quiet place" class="foto3">
+                    <h6 class="titolo-foto3">A quiet place</h6>
+                    <p class="paragrafo-foto3"> Subtitle</p>
                 </div>
 
-                <div style="margin-top: 4rem; margin-left: 3rem; width: 165px;">
-                    <img src="./img/split.jpeg" alt="Split" style="height: 200px;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 15px; text-align: center;">Split</h6>
-                    <p style="color: lightgrey; opacity: 60%; margin-top: 0.5rem; margin-left: 17px; font-size: 12px; text-align: center;">Subtitle</p>
+                <div class="contenitore-foto4">
+                    <img src="./img/split.jpeg" alt="Split" class="foto4">
+                    <h6 class="titolo-foto4">Split</h6>
+                    <p class="paragrafo-foto4">Subtitle</p>
                 </div>
 
-                <div style="margin-top: 4rem; margin-left: 3rem; width: 165px;">
-                    <img src="./img/cure.jpeg" alt="Cure of wellness" style="height: 200px;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 15px; text-align: center;">A cure of wellness</h6>
-                    <p style="color: lightgrey; opacity: 60%; margin-top: 0.5rem; margin-left: 17px; font-size: 12px; text-align: center;">Subtitle</p>
+                <div class="contenitore-foto5">
+                    <img src="./img/cure.jpeg" alt="Cure of wellness" class="foto5">
+                    <h6 class="titolo-foto5">A cure of wellness</h6>
+                    <p class="paragrafo-foto5">Subtitle</p>
                 </div>
 
-                <div style="margin-top: 4rem; margin-left: 3rem; width: 165px;">
-                    <img src="./img/sinister.jpeg" alt="Sinister" style="height: 200px;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 15px; text-align: center;">Sinister</h6>
-                    <p style="color: lightgrey; opacity: 60%; margin-top: 0.5rem; margin-left: 17px; font-size: 12px; text-align: center;">Subtitle</p>
+                <div class="contenitore-foto6">
+                    <img src="./img/sinister.jpeg" alt="Sinister" class="foto6">
+                    <h6 class="titolo-foto6">Sinister</h6>
+                    <p class="paragrafo-foto6">Subtitle</p>
                 </div>
 
             </div>
@@ -109,17 +117,17 @@
             <div class="contenitore-canzoni2-flex">
                 <div>
                     <h1 class="suggerimenti">Creato per Emanuele Pica</h1>
-                    <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 0.5rem;">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    <p class="paragrafo-suggerimenti">Più ascolti, più accurati saranno i suggerimenti.</p>
                 </div>    
 
-                <div style="margin-top: 4rem; margin-left: 3rem; width: 165px; margin-top: 5rem; margin-left: -19rem;">
-                    <img src="./img/radar.jpeg" alt="Release Radar" style="height: 200px;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 15px; text-align: center;">Release Radar</h6>
+                <div class="contenitore-foto7">
+                    <img src="./img/radar.jpeg" alt="Release Radar" class="foto7">
+                    <h6 class="titolo-foto7">Release Radar</h6>
                 </div>
 
-                <div style="margin-top: 4rem; margin-left: 3rem; width: 165px; margin-top: 5rem;">
-                    <img src="./img/mixdaily.jpeg" alt="Release Radar" style="height: 200px;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 15px; text-align: center;">Daily Mix 1</h6>
+                <div class="contenitore-foto8" >
+                    <img src="./img/mixdaily.jpeg" alt="Release Radar" class="foto8">
+                    <h6 class="titolo-foto8">Daily Mix 1</h6>
                 </div>
             </div>
 
@@ -127,18 +135,18 @@
 
             <div class="contenitore-canzoni3-flex">
                 <div>
-                    <h1 style="color: white; font-size: 25px;">Artisti più popolari</h1>
-                    <p style="font-size: 12px; color: lightgrey; opacity: 60%; margin-top: 0.5rem;">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    <h1 class="titolo-artisti">Artisti più popolari</h1>
+                    <p class="paragrafo-artisti">Più ascolti, più accurati saranno i suggerimenti.</p>
                 </div>
 
-                <div style="margin-top: 4rem; margin-left: -15rem; width: 165px; margin-top: 5rem;">
-                    <img src="./img/youg.jpeg" alt="youg" style="height: 200px; border-radius: 50%;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 25px; text-align: center;">Youg</h6>
+                <div class="contenitore-foto9">
+                    <img src="./img/youg.jpeg" alt="youg" class="foto9">
+                    <h6 class="titolo-foto9">Youg</h6>
                 </div>
 
-                <div style="margin-top: 4rem; margin-left: 4rem; width: 165px; margin-top: 5rem;">
-                    <img src="./img/einaudi.jpeg" alt="einaudi" style="height: 200px; border-radius: 50%;">
-                    <h6 style="color: white; margin-top: 1rem; font-size: 15px; margin-left: 25px; text-align: center;">Einaudi</h6>
+                <div class="contenitore-foto10">
+                    <img src="./img/einaudi.jpeg" alt="einaudi" class="foto10">
+                    <h6 class="titolo-foto10">Einaudi</h6>
                 </div>
             </div>
 
@@ -150,36 +158,36 @@
     <footer>
         <div class="base-flex">
             <div class="left">
-                <img src="./img/sinister.jpeg" alt="copertina sinister" style="margin-top: 20px; margin-left: 20px; height: 70px;">
-                <p style="font-size: 16px; color: white; margin-left: 0.5rem; margin-top: 40px; margin-right: 9rem; float: right;">Sinister</p>
-                <p style="font-size: 10px; color: lightgrey; opacity: 60%; margin-left: 110px; margin-top: -2rem; float: left;">Nome Brano</p>
-                <i class="far fa-heart" style="float: right; font-size: 20px; color: lightgrey; opacity: 60%; margin-top: -45px; margin-right: 4rem;"></i>
-                <i class="far fa-folder" style="float: right; font-size: 20px; color: lightgrey; opacity: 60%; margin-top: -45px; margin-right: 1rem;"></i>
+                <img src="./img/sinister.jpeg" alt="copertina sinister" class="copertina-sinister">
+                <p class="paragrafo-sinister">Sinister</p>
+                <p class="nome-brano">Nome Brano</p>
+                <i class="far fa-heart"></i>
+                <i class="far fa-folder"></i>
             </div>
 
             <!-- /parte sinistra del footer -->
 
             <div class="center">
-                <i class="fas fa-random" style="color: white; font-size: 20px; margin-top: 20px; margin-left: 11rem;"></i>
-                <i class="fas fa-step-backward" style="color: white; font-size: 20px; margin-top: 20px; margin-left: 1rem;"></i>
-                <i class="far fa-play-circle" style="color: white; font-size: 30px; margin-top: 20px; margin-left: 1rem;"></i>
-                <i class="fas fa-step-forward" style="color: white; font-size: 20px; margin-top: 20px; margin-left: 1rem;"></i>
-                <i class="fas fa-redo" style="color: white; font-size: 20px; margin-top: 20px; margin-left: 1rem;"></i>
-                <p style="color: white; font-size: 13px; margin-top: 20px;"> <strong>0:25</strong></p>
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="far fa-play-circle"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo"></i>
+                <p class="time1"><strong>0:25</strong></p>
                 <div class="barra-canzone">
-                    <div style="width: 80px; height: 5px; background-color: white;"></div>
+                    <div class="barra-canzone1"></div>
                 </div>
-                <p style="color: white; font-size: 13px; margin-top: -1rem; float: right; margin-right: 4rem;"> <strong>4:35</strong></p>
+                <p class="time2"> <strong>4:35</strong></p>
             </div>
 
             <!-- /parte centrale del footer -->
 
             <div class="right">
-                <i class="fas fa-list-ul" style="font-size: 20px; color: white; margin-top: 45px; margin-right: 1rem;"></i>
-                <i class="fas fa-desktop" style="font-size: 20px; color: white; margin-top: 45px; margin-right: 1rem;"></i>
-                <i class="fas fa-volume-up" style="font-size: 20px; color: white; margin-top: 45px; "></i>
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-volume-up"></i>
                 <div class="barra-canzone2">
-                    <div style="width: 30px; height: 5px; background-color: white;"></div>
+                    <div class="barra-piccola"></div>
                 </div>
             </div>
 
