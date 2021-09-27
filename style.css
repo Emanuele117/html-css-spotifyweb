@@ -77,10 +77,16 @@ header {
     margin-left: 20px;
     margin-top: 20px;
     font-size: 14px;
+    overflow: hidden;
 }
 
 .down-elements {
     margin-left: 20px;
+}
+
+.sidebar {
+    overflow: hidden;
+    height: 100%;
 }
 
 /* ************************
@@ -160,3 +166,20 @@ header {
 
 /********************
 ******** /main **********/
+
+p:hover, i:hover, img:hover {
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 60%;
+}
+
+/* /effetti */
+
+@media screen and (max-width: 768px) {
+    .contenitore-canzoni1-flex, .contenitore-canzoni2-flex, .contenitore-canzoni3-flex {
+        width: calc(100% / 6);
+        display: flex;
+    }
+}
