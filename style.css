@@ -220,6 +220,10 @@ header {
     width: 200px;
 }
 
+.sparisce {
+    visibility: visible;
+}
+
 /* ************************
 *******SIDEBAR************* */
 
@@ -715,14 +719,73 @@ p:hover, i:hover, li:hover, span:hover {
 
 /* /effetti */
 
-@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1440px) {
+    .barra-upgrade {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    .barra-upgrade {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .barra-upgrade {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 425px) {}
+@media screen and (max-width: 425px) {
+    .barra-upgrade {
+        width: 100%;
+    }
+    .contenuto {
+        width: calc(100% - 50px)
+    }
+    .contenitore-canzoni1-flex, .contenitore-foto1, .contenitore-foto2, .recently-played {
+        width: calc(100% - 50px);
+    }
+    .navbar {
+        width: calc(100% - 50px);
+        display: inline;
+        text-align: center;
+    }
+    .sparisce {
+        display: none;
+    }
+    .sidebar {
+        width: 50px;
+    }
+    .base-flex, .left, .center, .right {
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+    .barra-upgrade {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+    .barra-upgrade {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
